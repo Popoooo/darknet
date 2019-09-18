@@ -1,7 +1,3 @@
-/cotent/darknet/data/whill/000069.jpg
-/cotent/darknet/data/whill/000139.jpg
-/cotent/darknet/data/whill/000017.jpg
-/cotent/darknet/data/whill/000138.jpg
-/cotent/darknet/data/whill/000003.jpg
-/cotent/darknet/data/whill/000036.jpg
-/cotent/darknet/data/whill/000046.jpg
+/content/darknet/data/whill/age(18).jpg
+/content/darknet/data/whill/age(27).jpg
+/content/darknet/data/whill/age(8).jpg
