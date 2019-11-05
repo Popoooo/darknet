@@ -1,0 +1,5 @@
+classes= 2
+train  = cfg/meigetsu-train.txt
+valid  = cfg/meigetsu-test.txt
+names = data/meigetsu.names
+backup = backup

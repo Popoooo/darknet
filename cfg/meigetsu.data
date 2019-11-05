@@ -1,4 +1,4 @@
-classes= 2
+classes= 5
 train  = cfg/meigetsu-train.txt
 valid  = cfg/meigetsu-test.txt
 names = data/meigetsu.names
