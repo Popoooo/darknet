@@ -1,6 +1,7 @@
 import glob, os
 
 dir = 'C:/Users/377/Desktop/ogurano/2nd_ano'
+dir = 'C:/Users/377/Desktop/下見/results/ori'
 
 
 # Create and/or truncate train.txt and test.txt
