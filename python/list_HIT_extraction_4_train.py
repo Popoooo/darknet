@@ -21,7 +21,7 @@ for pathAndFilename in glob.iglob(os.path.join(current_dir, "*.txt")):
     f = open(current_dir + "/" + title + ".txt" , "r")
     line = f.readline()
     while line:
-        if line.startswith("1") or line.startswith("2") or  line.startswith("3"):            
+        if line.startswith("1") or line.startswith("2") or  line.startswith("3"):
             if counter == index_test:
                 counter = 1
                 file_test.write(g_colab_full_path + "/" + title + '.jpg' + "\n")

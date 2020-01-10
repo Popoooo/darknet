@@ -9,7 +9,7 @@ for pathAndFilename in glob.iglob(os.path.join(dir, "*.txt")):
     f = open(dir + "/" + title + ".txt" , "r")
     line = f.readline()
     while line:
-        if line.startswith("1") or line.startswith("2") or  line.startswith("3"):
+        if line.startswith("1") or line.startswith("2") or line.startswith("3"):
             extraction_list.write(dir + "/" + title + ".jpg" + "\n")
             break
         line = f.readline()
