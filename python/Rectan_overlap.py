@@ -1,3 +1,5 @@
+##かぶっている矩形領域を判別してはじくスクリプト
+
 import glob, os
 from collections import namedtuple
 import cv2
@@ -35,7 +37,7 @@ def rectan_similar(yolo_a,yolo_b):
         nab = (yolo_a.w * yolo_a.h) + (yolo_b.w * yolo_b.h) - iarea
         return iarea/nab
 
-
+#画像を切り出す関数
 def img_cut(imgdir, imgtitle, rect, count):
     filename = imgdir + '/' + imgtitle + '_re' + '.jpg'
     # 画像読み込み
@@ -57,7 +59,7 @@ def img_cut(imgdir, imgtitle, rect, count):
     cv2.imwrite(writename, img1)
 
 
-
+#test用
 a = yolo_rect(1, 0.6387, 0.4101, 0.1934, 0.2220)
 b = yolo_rect(1, 0.6567, 0.3774, 0.0315, 0.0253)
 
@@ -65,9 +67,12 @@ b = yolo_rect(1, 0.6567, 0.3774, 0.0315, 0.0253)
 classlist = 5
 classcount = [0] * classlist
 count = 0
+
+#フォルダ内のファイルを順番に読み込み
 for pathAndFilename in glob.iglob(os.path.join(dir, "*.txt")):
     title, ext = os.path.splitext(os.path.basename(pathAndFilename))
     list = []
+    #ファイルを１行ずつ読み込み
     for line in open(dir + "/" + title + ".txt" , "r").readlines():
         lsp = line.rstrip().split(" ")
         lsp = [float(i) for i in lsp]
@@ -75,7 +80,7 @@ for pathAndFilename in glob.iglob(os.path.join(dir, "*.txt")):
         #print("現在の行")
         #print(title + ' => ' + str(a))
         #print(" ")
-        
+
         #print("リスト")
         #print(list)
         #print(" ")
@@ -83,6 +88,7 @@ for pathAndFilename in glob.iglob(os.path.join(dir, "*.txt")):
         
         vertex_count = 0
         similar = 0.0
+        #Listの中身すべてと現在の行(Line)を比較する
         for i in list:
             isp = i.rstrip().split(" ")
             isp = [float(i) for i in isp]
@@ -95,6 +101,7 @@ for pathAndFilename in glob.iglob(os.path.join(dir, "*.txt")):
             if similar != None: #重複があればflagを立てる
                 if similar > 0.6: #6割以上重複していたら
                     vertex_count = vertex_count + 1
+        #重複がなかった場合、現在の行(line)をListに追加する
         if vertex_count == 0:
             list.append(line)
             img_cut(imgdir, title, a, classcount[int(a.c)])
