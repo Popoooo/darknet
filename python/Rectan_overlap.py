@@ -4,8 +4,10 @@ import glob, os
 from collections import namedtuple
 import cv2
 
-dir = 'C:/Users/377/Desktop/ogurano/Sec/last_result/2nd'
-imgdir = 'C:/Users/377/Desktop/ogurano/Sec/last_result'
+#dir = 'C:/Users/377/Desktop/ogurano/Sec/last_result/2nd'
+#imgdir = 'C:/Users/377/Desktop/ogurano/Sec/last_result'
+dir = 'C:/Users/winte/Desktop/cheese/2nd/cheese'
+imgdir = 'C:/Users/winte/Desktop/cheese/2nd/cheese'
 #vertex_list = open('vertex_list.txt', 'w')
 
 #yolo形式を定義
@@ -40,6 +42,7 @@ def rectan_similar(yolo_a,yolo_b):
 #画像を切り出す関数
 def img_cut(imgdir, imgtitle, rect, count):
     filename = imgdir + '/' + imgtitle + '_re' + '.jpg'
+    #filename = imgdir + '/' + imgtitle + '.jpg'
     # 画像読み込み
     img = cv2.imread(filename, cv2.IMREAD_COLOR)
     
