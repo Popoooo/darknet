@@ -1,0 +1,5 @@
+classes= 7
+train  = cfg/gravel-train.txt
+valid  = cfg/gravel-test.txt
+names = data/gravel.names
+backup = backup
