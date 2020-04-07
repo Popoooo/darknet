@@ -1,0 +1,5 @@
+classes= 3
+train  = data/grav/file/cfg-train.txt
+valid  = data/grav/file/cfg-test.txt
+names = data/grav/file/cfg.names
+backup = backup
