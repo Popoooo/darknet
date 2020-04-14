@@ -8,6 +8,9 @@ void train_detector(char *datacfg, char *cfgfile, char *weightfile, int *gpus, i
     list *options = read_data_cfg(datacfg);
     char *train_images = option_find_str(options, "train", "data/train.list");
     char *backup_directory = option_find_str(options, "backup", "/backup/");
+    if(backup_directory == "colab"){
+        backup_directory = "/content/gdrive/My\ Drive/Colab\ Notebooks/weight";
+    }
 
     srand(time(0));
     char *base = basecfg(cfgfile);
