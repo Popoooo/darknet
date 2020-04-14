@@ -7,8 +7,8 @@ print(current_dir)
 f_name = 'inji'
 
 
-current_dir = '../'
-g_colab_full_path='/content/darknet/data/' + f_name
+current_dir = '../pic/'
+g_colab_full_path='/content/darknet/data/' + f_name + '/pic'
 #train_pass = f_name + '-train.txt'
 #test_pass = f_name + '-test.txt'
 train_pass = 'cfg-train.txt'
