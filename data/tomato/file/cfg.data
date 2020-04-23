@@ -1,0 +1,4 @@
+classes= 2
+train  = data/tomato/file/cfg-train.txt
+valid  = data/tomato/file/cfg-test.txt
+names = data/tomato/file/cfg.names

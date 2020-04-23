@@ -1,0 +1,4 @@
+/content/darknet/data/tomato/pic/tomato_00000580.jpg
+/content/darknet/data/tomato/pic/tomato_00000600.jpg
+/content/darknet/data/tomato/pic/tomato_00000684.jpg
+/content/darknet/data/tomato/pic/tomato_00000700.jpg
