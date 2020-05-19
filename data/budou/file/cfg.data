@@ -1,0 +1,4 @@
+classes= 1
+train  = data/budou/file/cfg-train.txt
+valid  = data/budou/file/cfg-test.txt
+names = data/budou/file/cfg.names
