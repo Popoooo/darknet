@@ -8,3 +8,13 @@
 /content/darknet/data/budou/pic/img_00006223.jpg
 /content/darknet/data/budou/pic/img_00006550.jpg
 /content/darknet/data/budou/pic/img_00006606.jpg
+/content/darknet/data/budou/pic/img_defo_00001956.jpg
+/content/darknet/data/budou/pic/img_defo_00001971.jpg
+/content/darknet/data/budou/pic/img_defo_00001999.jpg
+/content/darknet/data/budou/pic/img_defo_00002012.jpg
+/content/darknet/data/budou/pic/img_defo_00002026.jpg
+/content/darknet/data/budou/pic/img_defo_00002046.jpg
+/content/darknet/data/budou/pic/img_defo_00002092.jpg
+/content/darknet/data/budou/pic/img_defo_00002104.jpg
+/content/darknet/data/budou/pic/img_defo_00002117.jpg
+/content/darknet/data/budou/pic/img_defo_00002132.jpg

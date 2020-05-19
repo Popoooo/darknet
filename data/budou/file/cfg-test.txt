@@ -1,2 +1,4 @@
 /content/darknet/data/budou/pic/img_00000632.jpg
 /content/darknet/data/budou/pic/img_00006269.jpg
+/content/darknet/data/budou/pic/img_defo_00001985.jpg
+/content/darknet/data/budou/pic/img_defo_00002081.jpg
