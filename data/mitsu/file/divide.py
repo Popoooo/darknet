@@ -7,8 +7,10 @@ print(current_dir)
 f_name = 'mitsu'
 
 
-current_dir = '../pic/'
-g_colab_full_path='/content/darknet/data/' + f_name + '/pic'
+#current_dir = '../pic/'
+#g_colab_full_path='/content/darknet/data/' + f_name + '/pic'
+current_dir'/content/gdrive/My Drive/Colab Notebooks/Dataset/train/' + f_name
+g_colab_full_path='/content/gdrive/My Drive/Colab Notebooks/Dataset/train/' + f_name
 #train_pass = f_name + '-train.txt'
 #test_pass = f_name + '-test.txt'
 train_pass = 'cfg-train.txt'
