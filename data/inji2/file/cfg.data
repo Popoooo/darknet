@@ -1,4 +1,4 @@
 classes= 5
-train  = data/inji/file/cfg-train.txt
-valid  = data/inji/file/cfg-test.txt
-names = data/inji/file/cfg.names
+train  = data/inji2/file/cfg-train.txt
+valid  = data/inji2/file/cfg-test.txt
+names = data/inji2/file/cfg.names
