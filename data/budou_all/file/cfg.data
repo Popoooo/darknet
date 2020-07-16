@@ -1,0 +1,4 @@
+classes= 8
+train  = data/budou_all/file/cfg-train.txt
+valid  = data/budou_all/file/cfg-test.txt
+names = data/budou_all/file/cfg.names

@@ -1,4 +1,0 @@
-classes= 8
-train  = data/budou_wine/file/cfg-train.txt
-valid  = data/budou_wine/file/cfg-test.txt
-names = data/budou_wine/file/cfg.names
