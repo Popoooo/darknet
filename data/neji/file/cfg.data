@@ -1,0 +1,4 @@
+classes= 2
+train  = data/neji/file/cfg-train.txt
+valid  = data/neji/file/cfg-test.txt
+names = data/neji/file/cfg.names
