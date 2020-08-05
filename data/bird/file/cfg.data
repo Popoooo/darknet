@@ -1,6 +1,5 @@
-classes= 80
+classes= 2
 train  = data/bird/file/cfg-train.txt
 valid  = data/bird/file/cfg-test.txt
 names = data/bird/file/cfg.names
-backup = backup
 

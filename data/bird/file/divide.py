@@ -4,7 +4,7 @@ import glob, os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 print(current_dir)
-f_name = 'bird
+f_name = 'bird2'
 
 
 #current_dir = '../pic/'
@@ -24,11 +24,11 @@ file_train = open(train_pass, 'w')
 file_test = open(test_pass, 'w')# Populate train.txt and test.txt
 counter = 1  
 index_test = round(100 / percentage_test)  
-for pathAndFilename in glob.iglob(os.path.join(current_dir, "*.jpg")):  
+for pathAndFilename in glob.iglob(os.path.join(current_dir, "*.JPG")):  
     title, ext = os.path.splitext(os.path.basename(pathAndFilename))
     if counter == index_test:
         counter = 1
-        file_test.write(g_colab_full_path + "/" + title + '.jpg' + "\n")
+        file_test.write(g_colab_full_path + "/" + title + '.JPG' + "\n")
     else:
-        file_train.write(g_colab_full_path + "/" + title + '.jpg' + "\n")
+        file_train.write(g_colab_full_path + "/" + title + '.JPG' + "\n")
         counter = counter + 1
