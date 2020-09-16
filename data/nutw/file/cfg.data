@@ -1,0 +1,4 @@
+classes= 2
+train  = data/nutw/file/cfg-train.txt
+valid  = data/nutw/file/cfg-test.txt
+names = data/nutw/file/cfg.names
