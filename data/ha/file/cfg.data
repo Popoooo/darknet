@@ -1,0 +1,4 @@
+classes= 64
+train  = data/ha/file/cfg-train.txt
+valid  = data/ha/file/cfg-test.txt
+names = data/ha/file/cfg.names
