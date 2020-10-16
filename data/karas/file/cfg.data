@@ -1,0 +1,4 @@
+classes= 4
+train  = data/karas/file/cfg-train.txt
+valid  = data/karas/file/cfg-test.txt
+names = data/karas/file/cfg.names
