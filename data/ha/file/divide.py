@@ -4,7 +4,7 @@ import glob, os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 print(current_dir)
-f_name = 'ha_3rd'
+f_name = 'ha_t1'
 
 
 #current_dir = '../pic/'
